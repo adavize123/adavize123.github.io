@@ -1,0 +1,113 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+div a img{align-items: center;
+
+}
+
+
+span{
+  
+    color:indigo;
+    border-radius:2em 50%;
+    align-content: center; 
+    font-size: 2em;
+    background:rgb(200, 195, 195);
+}
+span:hover{
+    align-content: right; 
+    color: white;
+    border-radius: 2px 30%;
+    font-size: 2em;
+    background: rgb(149, 54, 54);
+    
+}
+#sec1{
+    background-color: lightgrey;
+    border-radius: 50px;
+  margin: 0 auto;
+}
+#sec2{
+    background-color: #aaa;
+
+}  
+#sec3{
+    background-image: url(images/photo6.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 100px;
+  
+
+}
+#empty{
+height: 80px;
+}
+#project-sec{
+    margin-bottom: 40px;
+    padding: 40px;
+    margin: 40px;
+
+}
+#card{
+    height: 80px;
+}
+figure{
+    float: left;
+}
+main{
+    margin:0 auto;
+    padding: 0px;
+}
+
+.wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 350px;
+    width: 300px;
+    background:#fff;
+    padding: 25px;
+    border-radius: 5px;
+}
+.wrapper .input_field{
+margin-bottom: 10px;
+
+}
+.wrapper .input_field input[type="text"],
+.wrapper textarea{
+    width: 100%;
+    border: 1px solid #e0e0e0;
+    padding: 10px;
+}
+.wrapper textarea{
+    height: 80px;
+    resize: none;
+}
+.wrapper .btn input[type="submit"]{
+    border: 0;
+    margin-top: 15px;
+    padding: 10px;
+    width: 100px;
+    background: #fece0c;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.wrapper #error_message{
+    margin-bottom: 20px;
+    padding: 0px;
+    background-color: red ;
+    color: white;
+   text-align: center;
+   font-size: 14px;
+   transition: all 0.5 ease;
+}
+#alert{
+    display: none;
+}
